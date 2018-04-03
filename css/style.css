@@ -1,0 +1,49 @@
+/* Footer */
+footer {
+  width: 100%;
+  text-align: center; }
+
+.copyright {
+  padding-top: 20px;
+  color: black;
+  font-size: 14px; }
+  .copyright a {
+    text-decoration: none;
+    color: black; }
+
+#author {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5; }
+
+body {
+  background: url("../img/backgrounds/forest1.jpg") no-repeat fixed;
+  background-size: cover;
+  transition: 'background 2s' !important;
+  padding-top: 60px;
+  overflow-x: hidden; }
+
+#weather-block {
+  display: block;
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  text-align: center; }
+  @media only screen and (max-width: 600px) {
+    #weather-block {
+      top: 10%; } }
+  #weather-block img {
+    max-height: 100%;
+    cursor: pointer;
+    margin: 0px 10px;
+    opacity: 0.5; }
+    #weather-block img:hover {
+      opacity: 1.0 !important; }
+
+/* Hide button border onClick*/
+:focus {
+  outline: none; }
+
+::-moz-focus-inner {
+  border: 0; }
